@@ -1,5 +1,6 @@
 /*  your css code here. If applicable */
 body{
+	
 	background-color:lightpink;
 	display:flex;
 	justify-content:center;
@@ -14,10 +15,13 @@ body{
 	/* border:2px solid black; */
 	display:flex;
 	justify-content:space-around;
+	
 }
 .btn , .stop{
 	margin:10px 0px;
 	padding:10px ;
 	background-color:hotpink;
 	cursor:pointer;
+	color:white;
+	border:none;
 }

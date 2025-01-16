@@ -9,11 +9,14 @@ function stopAudio(){
 		currentAudio=null
 	}
 }
-
+// let sound1="sound1";
+let audio=new Audio('./sounds/applause');
+audio.play();
 for(let el of btns){
 	el.addEventListener('click',()=>{
 		stopAudio();
-		currentAudio=new Audio(`sounds/${el.textContent}`);
+		// alert(`./sounds/${el.textContent}.mp3`)
+		currentAudio=new Audio(`sounds/${el.textContent}.mp3`);
 		currentAudio.play();
 		
 	})
